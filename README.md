@@ -1,2 +1,2 @@
 dependencies:
-```yay -S --needed hyprland waybar swww rofi-wayland dolphin gwenview mpv kio-extras ffmpegthumbs kdegraphics-thumbnailers qt6-imageformats qt6-wayland archlinux-xdg-menu nwg-look qt5ct-kde qt6ct-kde kvantum ttf-jetbrains-mono-nerd mako hyprlock hypridle wl-clipboard grim slurp hyprpolkitagent```
+```yay -S --needed hyprland waybar swww rofi-wayland dolphin gwenview mpv kio-extras ffmpegthumbs kdegraphics-thumbnailers qt6-imageformats qt6-wayland archlinux-xdg-menu nwg-look qt5ct-kde qt6ct-kde kvantum ttf-jetbrains-mono-nerd mako hyprlock hypridle wl-clipboard grim slurp hyprpolkitagent kvantum-theme-catppuccin-git catppuccin-gtk-theme-mocha catppuccin-cursors-mocha papirus-icon-theme-git```
