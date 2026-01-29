@@ -1,13 +1,2 @@
-# catppuccin-mocha-lavender-hyprland-arch
-Основной стек:
-
-  WM: Hyprland
-  Theme: Catppuccin Lavender
-  Wallpaper: swww + rofi (скрипт-пикер)
-  Apps: Dolphin, Gwenview, MPV
-
-Быстрая настройка:
-  
-  Скопировать конфиги в ~/.config/
-  Установить зависимости: sudo pacman -S swww rofi-wayland gwenview mpv kio-extras ffmpegthumbs kdegraphics-thumbnailers archlinux-xdg-menu
-  Исправить меню для Dolphin: sudo ln -s /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.menu
+dependencies:
+```yay -S --needed hyprland waybar swww rofi-wayland dolphin gwenview mpv kio-extras ffmpegthumbs kdegraphics-thumbnailers qt6-imageformats qt6-wayland archlinux-xdg-menu nwg-look qt5ct-kde qt6ct-kde kvantum ttf-jetbrains-mono-nerd mako hyprlock hypridle wl-clipboard grim slurp hyprpolkitagent```
