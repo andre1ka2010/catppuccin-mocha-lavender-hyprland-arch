@@ -1,9 +1,9 @@
-# 💜 Catppuccin Lavender Hyprland Dotfiles
+# Catppuccin Lavender Hyprland Dotfiles
 
-So it's just a Hyprland dotfiles setup based on **Catppuccin Mocha (Lavender)** theme by a newbie.
-I will be happy to get any commits!
+So it's just a Hyprland dotfiles setup based on **Catppuccin Mocha (Lavender)** theme by a newbie
+will be happy to get any commits
 
-## Dependencies
+## Installation
 
 Download and install dependencies:
 
