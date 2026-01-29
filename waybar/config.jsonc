@@ -1,0 +1,57 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "spacing": 0,
+    "modules-left": ["hyprland/workspaces", "mpris"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio#microphone", "pulseaudio", "power-profiles-daemon", "hyprland/language", "tray"],
+
+    "hyprland/workspaces": {
+        "format": "{id}",
+        "on-click": "activate"
+    },
+    "mpris": {
+        "format": " {player_icon} {title} ",
+        "player-icons": {
+            "default": "󰎆",
+            "spotify": "",
+            "firefox": "󰈹",
+            "chromium": "",
+            "mpv": ""
+        },
+        "status-icons": {
+            "paused": "󰏤"
+        },
+        "max-length": 30,
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl next"
+    },
+    "clock": {
+        "interval": 1,
+        "format": "󱑂 {:%H:%M:%S}",
+        "format-alt": "󰃭 {:%d %B, %Y}"
+    },
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-source": "",
+        "format-source-muted": "",
+        "on-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+    },
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-muted": "  {volume}%",
+        "format-icons": { "default": ["", "", ""] },
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "format-icons": { "default": "", "performance": "", "balanced": "", "power-saver": "" }
+    },
+    "hyprland/language": {
+        "format": "   {}",
+        "format-en": "en",
+        "format-ru": "ru"
+    },
+    "tray": { "icon-size": 18, "spacing": 10 }
+}
