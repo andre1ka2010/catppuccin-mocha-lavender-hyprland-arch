@@ -2,10 +2,9 @@
 
 So it's just a Hyprland dotfiles setup based on **Catppuccin Mocha (Lavender)** theme by a newbie
 will be happy to get any commits
-
 ## Tutorial
 ```bash
-#2 Download and install dependencies:
+#1. Download and install dependencies:
 
 
 yay -S --needed git hyprland waybar swww rofi-wayland dolphin gwenview mpv \
