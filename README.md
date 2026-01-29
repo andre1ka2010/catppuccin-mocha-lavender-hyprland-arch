@@ -17,12 +17,10 @@ catppuccin-cursors-mocha papirus-icon-theme-git
 
 #Installation
 #1. Clone Repository
-git clone [https://github.com/andre1ka2010/catppuccin-mocha-lavender-hyprland-arch.git](https://github.com/andre1ka2010/catppuccin-mocha-lavender-hyprland-arch.git) ~/dotfiles
+git clone https://github.com/andre1ka2010/catppuccin-mocha-lavender-hyprland-arch ~/dotfiles
 cd ~/dotfiles
 
-2. Copy Dotfiles
-Bash
-
+#2. Copy Dotfiles
 # Copy all config folders to ~/.config/
 cp -r * ~/.config/
 
