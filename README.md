@@ -15,10 +15,8 @@ mako hyprlock hypridle wl-clipboard grim slurp hyprpolkitagent \
 kvantum-theme-catppuccin-git catppuccin-gtk-theme-mocha \
 catppuccin-cursors-mocha papirus-icon-theme-git
 
-Installation
-1. Clone Repository
-Bash
-
+#Installation
+#1. Clone Repository
 git clone [https://github.com/andre1ka2010/catppuccin-mocha-lavender-hyprland-arch.git](https://github.com/andre1ka2010/catppuccin-mocha-lavender-hyprland-arch.git) ~/dotfiles
 cd ~/dotfiles
 
@@ -28,23 +26,16 @@ Bash
 # Copy all config folders to ~/.config/
 cp -r * ~/.config/
 
-(Note: This copies everything, including the README, to .config. It's safe, but you can delete extra files later).
-3. Setup Scripts & Fixes
-
-Make the wallpaper changer script executable:
-Bash
-
+#(Note: This copies everything, including the README, to .config. It's safe, but you can delete extra files later).
+#3. Setup Scripts & Fixes
+#Make the wallpaper changer script executable:
 chmod +x ~/.config/hypr/scripts/*
 
-Fix Dolphin menu (without this, videos and photos will not open):
-Bash
-
+#Fix Dolphin menu (without this, videos and photos will not open):
 sudo ln -s /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.menu
 kbuildsycoca6 --noincremental
 
-4. Final
-Bash
-
+#4. Final
 reboot
 
  Theme Troubleshooting
