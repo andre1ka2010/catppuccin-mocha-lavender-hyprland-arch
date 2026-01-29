@@ -5,7 +5,7 @@ will be happy to get any commits
 
 ## Tutorial
 ```bash
-1# Download and install dependencies:
+#2 Download and install dependencies:
 
 
 yay -S --needed git hyprland waybar swww rofi-wayland dolphin gwenview mpv \
