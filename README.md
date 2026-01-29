@@ -1,5 +1,7 @@
+# 💜 Catppuccin Lavender Hyprland Dotfiles
+
 So it's just a Hyprland dotfiles setup based on **Catppuccin Mocha (Lavender)** theme by a newbie.
-I will be happy to get any commits
+I will be happy to get any commits!
 
 ## Dependencies
 
@@ -13,7 +15,7 @@ mako hyprlock hypridle wl-clipboard grim slurp hyprpolkitagent \
 kvantum-theme-catppuccin-git catppuccin-gtk-theme-mocha \
 catppuccin-cursors-mocha papirus-icon-theme-git
 
-🛠️ Installation
+Installation
 1. Clone Repository
 Bash
 
@@ -44,3 +46,8 @@ kbuildsycoca6 --noincremental
 Bash
 
 reboot
+
+ Theme Troubleshooting
+If themes are not applied automatically:
+    Open nwg-look and select Catppuccin-Mocha-Standard-Lavender-Dark.
+    Open kvantummanager, select Catppuccin-Mocha-Lavender and click "Use this theme".
