@@ -34,9 +34,4 @@ sudo ln -s /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.men
 kbuildsycoca6 --noincremental
 
 #4. Final
-reboot```
-
- Theme Troubleshooting
-If themes are not applied automatically:
-    Open nwg-look and select Catppuccin-Mocha-Standard-Lavender-Dark.
-    Open kvantummanager, select Catppuccin-Mocha-Lavender and click "Use this theme".
+reboot
